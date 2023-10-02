@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="weather.js" defer></script>
+    <link rel="stylesheet" href="weather.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="weather-box">
+        <input type="text" placeholder="Enter city name" class="city-search"> <button class="btn">Search</button>
+        <p class="invalid">Invalid city!</p>
+        <div class="weather">
+            <div class="img">
+                <img class="weatherimg" id="display" src="sunny.png">
+                <embed src="" autostart class="music" style="width: 0; height: 0;">
+            </div>
+            <h2 class="cityname"></h2>
+            <h1 class="temperature">22C</h1>
+            <div class="row">
+                <div class="col">
+                    <img src="wind.png" class="humidity-img">
+                    <p>Wind</p>
+                    <p class="wind"></p>
+                </div>
+                <div class="col humidity-text">
+                    <img src="humidity.png" class="humidity-img">
+                    <p>humidity</p>
+                    <p class="humidity"></p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
